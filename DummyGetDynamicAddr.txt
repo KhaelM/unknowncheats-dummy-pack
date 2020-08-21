@@ -1,0 +1,20 @@
+DummyProgram
+
+varInt          (008FFB48) = 123456
+varString       (008FFB4C) = DefaultString
+arrChar[128]    (008FFB64) = Long char array right there ->
+ptr2varInt      (008FFB44) = 008FFB48
+ptr2ptr         (008FFB40) = 008FFB44
+ptr2ptr2ptr     (008FFB3C) = 008FFB40
+
+=========================================
+DummyReader
+
+offsets = 0,0,0
+
+i	curAd			curValue	curVal + off
+0	08FFB3C			8FFB40		8FFB40+0
+0	08ffb40			8FFB44		8FFB44+0
+0       08FFB44                 8FFB48          8FFB48+0
+
+sortie	8FFB48			123456
